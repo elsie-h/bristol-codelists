@@ -4,3 +4,6 @@ opensafely/smoking-unclear/2020-04-29
 opensafely/smoking-clear/2020-04-29
 user/elsie_horne/ami_snomed/36d11028
 user/elsie_horne/ami_icd10/4fe0835d
+user/elsie_horne/artery_dissect_icd10/20745ce9
+user/elsie_horne/bmi_obesity_snomed/0764e9b4
+user/elsie_horne/bmi_obesity_icd10/6e55767e

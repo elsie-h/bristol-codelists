@@ -40,3 +40,21 @@ ami_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
+
+artery_dissect_icd10 = codelist_from_csv(
+    "user/elsie_horne/artery_dissect_icd10/20745ce9.csv",
+    system="icd10",
+    column="code",
+)
+
+bmi_obesity_snomed = codelist_from_csv(
+    "user/elsie_horne/bmi_obesity_snomed/0764e9b4.csv",
+    system="snomed",
+    column="code",
+)
+
+bmi_obesity_icd10 = codelist_from_csv(
+    "user/elsie_horne/bmi_obesity_icd10/6e55767e.csv",
+    system="icd10",
+    column="code",
+)

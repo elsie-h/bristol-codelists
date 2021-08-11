@@ -13,7 +13,7 @@ placeholder_icd10 = codelist(["codes"], system="icd10")
 placeholder_dmd = codelist(["codes"], system="snomed")
 
 variables = {
-    "cov_ever_ami": [placeholder_ctv3, placeholder_icd10],
+    "cov_ever_ami": [ami_snomed, ami_icd10],
     "cov_ever_pe_vt": [placeholder_ctv3, placeholder_icd10],
     "cov_ever_icvt": [placeholder_ctv3, placeholder_icd10],
     "cov_ever_all_stroke": [placeholder_ctv3, placeholder_icd10],

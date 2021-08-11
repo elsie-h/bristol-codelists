@@ -28,3 +28,15 @@ smoking_unclear = codelist_from_csv(
     column="CTV3Code",
     category_column="Category",
 )
+
+ami_snomed = codelist_from_csv(
+    "user/elsie_horne/ami_snomed/36d11028.csv",
+    system="snomed",
+    column="code",
+)
+
+ami_icd10 = codelist_from_csv(
+    "user/elsie_horne/ami_snomed/36d11028.csv",
+    system="icd10",
+    column="code",
+)

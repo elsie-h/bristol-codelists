@@ -11,3 +11,5 @@ user/elsie_horne/cancer_snomed/23271cdf
 user/elsie_horne/cancer_icd10/55460349
 user/elsie_horne/cardiomyopathy_snomed/0a17a9aa
 user/elsie_horne/cardiomyopathy_icd10/71083674
+user/elsie_horne/ckd_snomed/25d9dcd5
+user/elsie_horne/ckd_icd10/0cca69a0

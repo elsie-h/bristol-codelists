@@ -81,3 +81,15 @@ cardiomyopathy_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
+
+ckd_snomed = codelist_from_csv(
+    "user/elsie_horne/ckd_snomed/25d9dcd5.csv",
+    system="snomed",
+    column="code",
+)
+
+ckd_icd10 = codelist_from_csv(
+    "user/elsie_horne/ckd_icd10/0cca69a0.csv",
+    system="icd10",
+    column="code",
+)

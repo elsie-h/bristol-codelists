@@ -21,7 +21,7 @@ variables = {
     "cov_ever_tcp": [placeholder_ctv3, placeholder_icd10],
     "cov_ever_dementia": [placeholder_ctv3, placeholder_icd10],
     "cov_ever_liver_disease": [placeholder_ctv3, placeholder_icd10],
-    "cov_ever_ckd": [placeholder_ctv3, placeholder_icd10],
+    "cov_ever_ckd": [ckd_snomed, ckd_icd10],
     "cov_ever_cancer": [cancer_snomed, cancer_icd10],
     "cov_ever_diabetes": [placeholder_ctv3, placeholder_icd10, placeholder_dmd],
     "cov_ever_obesity": [bmi_obesity_snomed, bmi_obesity_icd10],

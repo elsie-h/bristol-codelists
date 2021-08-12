@@ -37,7 +37,7 @@ variables = {
     "cov_ever_mesenteric_thrombus": [placeholder_ctv3, placeholder_icd10],
     "cov_ever_artery_dissect": [placeholder_ctv3, artery_dissect_icd10],
     "cov_ever_life_arrhythmia": [placeholder_ctv3, placeholder_icd10],
-    "cov_ever_cardiomyopathy": [placeholder_ctv3, placeholder_icd10],
+    "cov_ever_cardiomyopathy": [cardiomyopathy_snomed, cardiomyopathy_icd10],
     "cov_ever_hf": [placeholder_ctv3, placeholder_icd10],
     "cov_ever_pericarditis": [placeholder_ctv3, placeholder_icd10],
     "cov_ever_myocarditis": [placeholder_ctv3, placeholder_icd10],

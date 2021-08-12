@@ -70,3 +70,14 @@ cancer_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
+cardiomyopathy_snomed = codelist_from_csv(
+    "user/elsie_horne/cardiomyopathy_snomed/0a17a9aa.csv",
+    system="snomed",
+    column="code",
+)
+
+cardiomyopathy_icd10 = codelist_from_csv(
+    "user/elsie_horne/cardiomyopathy_icd10/71083674.csv",
+    system="icd10",
+    column="code",
+)

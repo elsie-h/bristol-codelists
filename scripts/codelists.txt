@@ -13,3 +13,5 @@ user/elsie_horne/cardiomyopathy_snomed/0a17a9aa
 user/elsie_horne/cardiomyopathy_icd10/71083674
 user/elsie_horne/ckd_snomed/25d9dcd5
 user/elsie_horne/ckd_icd10/0cca69a0
+user/elsie_horne/copd_snomed/419c1000
+user/elsie_horne/copd_icd10/5aab8335

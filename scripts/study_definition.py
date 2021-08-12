@@ -26,7 +26,7 @@ variables = {
     "cov_ever_diabetes": [placeholder_ctv3, placeholder_icd10, placeholder_dmd],
     "cov_ever_obesity": [bmi_obesity_snomed, bmi_obesity_icd10],
     "cov_ever_depression": [placeholder_ctv3, placeholder_icd10],
-    "cov_ever_copd": [placeholder_ctv3, placeholder_icd10],
+    "cov_ever_copd": [copd_snomed, copd_icd10],
     "cov_antiplatelet_meds": [placeholder_dmd],
     "cov_lipid_meds": [placeholder_dmd],
     "cov_anticoagulation_meds": [placeholder_dmd],

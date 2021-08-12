@@ -93,3 +93,15 @@ ckd_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
+
+copd_snomed = codelist_from_csv(
+    "user/elsie_horne/copd_snomed/419c1000.csv",
+    system="snomed",
+    column="code",
+)
+
+copd_icd10 = codelist_from_csv(
+    "user/elsie_horne/copd_icd10/5aab8335.csv",
+    system="icd10",
+    column="code",
+)

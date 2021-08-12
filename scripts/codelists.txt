@@ -7,3 +7,5 @@ user/elsie_horne/ami_icd10/4fe0835d
 user/elsie_horne/artery_dissect_icd10/20745ce9
 user/elsie_horne/bmi_obesity_snomed/0764e9b4
 user/elsie_horne/bmi_obesity_icd10/6e55767e
+user/elsie_horne/cancer_snomed/23271cdf
+user/elsie_horne/cancer_icd10/55460349

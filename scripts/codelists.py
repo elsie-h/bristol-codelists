@@ -58,3 +58,15 @@ bmi_obesity_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
+
+cancer_snomed = codelist_from_csv(
+    "user/elsie_horne/cancer_snomed/23271cdf.csv",
+    system="snomed",
+    column="code",
+)
+
+cancer_icd10 = codelist_from_csv(
+    "user/elsie_horne/cancer_icd10/55460349.csv",
+    system="icd10",
+    column="code",
+)

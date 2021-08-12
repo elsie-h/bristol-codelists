@@ -15,3 +15,12 @@ user/elsie_horne/ckd_snomed/25d9dcd5
 user/elsie_horne/ckd_icd10/0cca69a0
 user/elsie_horne/copd_snomed/419c1000
 user/elsie_horne/copd_icd10/5aab8335
+user/elsie_horne/dementia_snomed/7bd3364c
+user/elsie_horne/dementia_icd10/2df21cb7
+user/elsie_horne/dic_icd10/62c3c317
+user/elsie_horne/dvt_dvt_icd10/49b44fe2
+user/elsie_horne/dvt_icvt_icd10/30a4dcad
+user/elsie_horne/dvt_icvt_snomed/7e85f642
+user/elsie_horne/dvt_pregnancy_icd10/6576830d
+user/elsie_horne/hf_snomed/33579ca3
+user/elsie_horne/hf_icd10/4c670fd8

@@ -105,3 +105,57 @@ copd_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
+
+dementia_snomed = codelist_from_csv(
+    "user/elsie_horne/dementia_snomed/7bd3364ccsv",
+    system="snomed",
+    column="code",
+)
+
+dementia_icd10 = codelist_from_csv(
+    "user/elsie_horne/dementia_icd10/2df21cb7.csv",
+    system="icd10",
+    column="code",
+)
+
+dic_icd10 = codelist_from_csv(
+    "user/elsie_horne/dic_icd10/62c3c317.csv",
+    system="icd10",
+    column="code",
+)
+
+dvt_dvt_icd10 = codelist_from_csv(
+    "user/elsie_horne/dvt_dvt_icd10/49b44fe2.csv",
+    system="icd10",
+    column="code",
+)
+
+dvt_icvt_icd10 = codelist_from_csv(
+    "user/elsie_horne/dvt_icvt_icd10/30a4dcad.csv",
+    system="icd10",
+    column="code",
+)
+
+dvt_icvt_snomed = codelist_from_csv(
+    "user/elsie_horne/dvt_icvt_snomed/7e85f642.csv",
+    system="snomed",
+    column="code",
+)
+
+dvt_pregnancy_icd10 = codelist_from_csv(
+    "user/elsie_horne/dvt_pregnancy_icd10/6576830d.csv",
+    system="icd10",
+    column="code",
+)
+
+hf_snomed = codelist_from_csv(
+    "user/elsie_horne/hf_snomed/33579ca3.csv",
+    system="snomed",
+    column="code",
+)
+
+hf_icd10 = codelist_from_csv(
+    "user/elsie_horne/hf_icd10/4c670fd8.csv",
+    system="icd10",
+    column="code",
+)

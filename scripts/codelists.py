@@ -36,7 +36,7 @@ ami_snomed = codelist_from_csv(
 )
 
 ami_icd10 = codelist_from_csv(
-    "user/elsie_horne/ami_snomed/36d11028.csv",
+    "user/elsie_horne/ami_snomed/4f19cfce.csv",
     system="icd10",
     column="code",
 )

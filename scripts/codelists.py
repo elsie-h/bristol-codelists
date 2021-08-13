@@ -165,3 +165,27 @@ hf_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
+
+stroke_isch_icd10 = codelist_from_csv(
+    "user/elsie_horne/stroke_isch_icd10/03eb762f.csv",
+    system="icd10",
+    column="code",
+)
+
+stroke_isch_snomed = codelist_from_csv(
+    "user/elsie_horne/stroke_isch_snomed/1cfae964.csv",
+    system="snomed",
+    column="code",
+)
+
+stroke_sah_hs_icd10 = codelist_from_csv(
+    "user/elsie_horne/stroke_sah_hs_icd10/51cc8fc4.csv",
+    system="icd10",
+    column="code",
+)
+
+stroke_sah_hs_snomed = codelist_from_csv(
+    "user/elsie_horne/stroke_sah_hs_snomed/6adc02f9.csv",
+    system="snomed",
+    column="code",
+)

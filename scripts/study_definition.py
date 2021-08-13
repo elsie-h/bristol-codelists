@@ -23,6 +23,7 @@ variables = {
     "cov_ever_liver_disease": [liver_disease_snomed, liver_disease_icd10],
     "cov_ever_ckd": [ckd_snomed, ckd_icd10],
     "cov_ever_cancer": [cancer_snomed, cancer_icd10],
+    "cov_ever_hypertension": [hypertension_icd10, hypertension_drugs, hypertension_snomed],
     "cov_ever_diabetes": [diabetes_snomed, diabetes_icd10, diabetes_drugs],
     "cov_ever_obesity": [bmi_obesity_snomed, bmi_obesity_icd10],
     "cov_ever_depression": [depression_snomed, depression_icd10],
@@ -178,5 +179,11 @@ study = StudyDefinition(
             },
         },
     ),
+    cov_ever_ami=patients.with_these_clinical_events(
+        codelist, # how do I define codelists making use of get_codelist_variable (line 47)
+        return_expectations=None, # enter the expected proportion of patients with ever AMI here?
+        on_or_before="index_date", 
+        returning='binary_flag', 
+        ),
     **covariates,
 )

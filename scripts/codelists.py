@@ -369,3 +369,21 @@ myocarditis_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
+
+hypertension_icd10 = codelist_from_csv(
+    "user/elsie_horne/hypertension_icd10/1a48296e.csv",
+    system="icd10",
+    column="code",
+)
+
+hypertension_drugs = codelist_from_csv(
+    "opensafely/bristol_hypertension/79207656.csv",
+    system="snomed",
+    column="code",
+)
+
+hypertension_snomed = codelist_from_csv(
+    "nhsd-primary-care-domain-refsets/hyp_cod/20210127.csv",
+    system="snomed",
+    column="code",
+)

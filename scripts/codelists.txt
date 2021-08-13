@@ -59,3 +59,6 @@ user/elsie_horne/mesenteric_thrombus_icd10/2d2b6928
 user/elsie_horne/life_arrhythmia_icd10/141bf5f3
 user/elsie_horne/pericarditis_icd10/7b0c82bd
 user/elsie_horne/myocarditis_icd10/48ed9c53
+user/elsie_horne/hypertension_icd10/1a48296e
+opensafely/bristol_hypertension/79207656
+nhsd-primary-care-domain-refsets/hyp_cod/20210127

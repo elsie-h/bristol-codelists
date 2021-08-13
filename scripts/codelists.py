@@ -255,3 +255,45 @@ thrombocytopenia_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
+
+dementia_vascular_snomed = codelist_from_csv(
+    "user/elsie_horne/dementia_vascular_snomed/0eb67607.csv",
+    system="snomed",
+    column="code",
+)
+
+dementia_vascular_icd10 = codelist_from_csv(
+    "user/elsie_horne/dementia_vascular_icd10/27c5e93c.csv",
+    system="icd10",
+    column="code",
+)
+
+liver_disease_snomed = codelist_from_csv(
+    "user/elsie_horne/liver_disease_snomed/5c978f9c.csv",
+    system="snomed",
+    column="code",
+)
+
+liver_disease_icd10 = codelist_from_csv(
+    "user/elsie_horne/liver_disease_icd10/75a702d1.csv",
+    system="icd10",
+    column="code",
+)
+
+diabetes_snomed = codelist_from_csv(
+    "user/elsie_horne/diabetes_snomed/43881c67.csv",
+    system="snomed",
+    column="code",
+)
+
+diabetes_icd10 = codelist_from_csv(
+    "user/elsie_horne/diabetes_icd10/2a78a932.csv",
+    system="icd10",
+    column="code",
+)
+
+bristol_diabetes_drugs = codelist_from_csv(
+    "opensafely/bristol_diabetes_drugs/60110321.csv",
+    system="snomed",
+    column="code",
+)

@@ -41,6 +41,12 @@ ami_icd10 = codelist_from_csv(
     column="code",
 )
 
+ami_prior_icd10 = codelist_from_csv(
+    "user/elsie_horne/ami_prior_icd10/360a5c99.csv",
+    system="icd10",
+    column="code",
+)
+
 artery_dissect_icd10 = codelist_from_csv(
     "user/elsie_horne/artery_dissect_icd10/20745ce9.csv",
     system="icd10",

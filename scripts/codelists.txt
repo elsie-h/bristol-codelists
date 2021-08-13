@@ -47,3 +47,15 @@ user/elsie_horne/liver_disease_snomed/5c978f9c
 user/elsie_horne/diabetes_snomed/43881c67
 user/elsie_horne/diabetes_icd10/2a78a932
 opensafely/bristol_diabetes_drugs/60110321
+user/elsie_horne/depression_icd10/116935fd
+user/elsie_horne/depression_snomed/7859c2c7
+user/elsie_horne/antiplatelet/316b903c
+user/elsie_horne/lipid_lowering/341e5032
+user/elsie_horne/anticoagulant/4a7b0371
+user/elsie_horne/cocp/185c1d07
+user/elsie_horne/hrt/7f4ca9d1
+user/elsie_horne/other_arterial_embolism_icd10/463adc5d
+user/elsie_horne/mesenteric_thrombus_icd10/2d2b6928
+user/elsie_horne/life_arrhythmia_icd10/141bf5f3
+user/elsie_horne/pericarditis_icd10/7b0c82bd
+user/elsie_horne/myocarditis_icd10/48ed9c53

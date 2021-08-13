@@ -292,8 +292,80 @@ diabetes_icd10 = codelist_from_csv(
     column="code",
 )
 
-bristol_diabetes_drugs = codelist_from_csv(
+diabetes_drugs = codelist_from_csv(
     "opensafely/bristol_diabetes_drugs/60110321.csv",
     system="snomed",
+    column="code",
+)
+
+depression_icd10 = codelist_from_csv(
+    "user/elsie_horne/depression_icd10/116935fd.csv",
+    system="icd10",
+    column="code",
+)
+
+depression_snomed = codelist_from_csv(
+    "user/elsie_horne/depression_snomed/7859c2c7.csv",
+    system="snomed",
+    column="code",
+)
+
+antiplatelet = codelist_from_csv(
+    "user/elsie_horne/antiplatelet/316b903c.csv",
+    system="snomed",
+    column="code",
+)
+
+lipid_lowering = codelist_from_csv(
+    "user/elsie_horne/lipid_lowering/341e5032.csv",
+    system="snomed",
+    column="code",
+)
+
+anticoagulant = codelist_from_csv(
+    "user/elsie_horne/anticoagulant/4a7b0371.csv",
+    system="snomed",
+    column="code",
+)
+
+cocp = codelist_from_csv(
+    "user/elsie_horne/cocp/185c1d07.csv",
+    system="snomed",
+    column="code",
+)
+
+hrt = codelist_from_csv(
+    "user/elsie_horne/hrt/7f4ca9d1.csv",
+    system="snomed",
+    column="code",
+)
+
+other_arterial_embolism_icd10 = codelist_from_csv(
+    "user/elsie_horne/other_arterial_embolism_icd10/463adc5d.csv",
+    system="icd10",
+    column="code",
+)
+
+mesenteric_thrombus_icd10 = codelist_from_csv(
+    "user/elsie_horne/mesenteric_thrombus_icd10/2d2b6928.csv",
+    system="icd10",
+    column="code",
+)
+
+life_arrhythmia_icd10 = codelist_from_csv(
+    "user/elsie_horne/life_arrhythmia_icd10/141bf5f3.csv",
+    system="icd10",
+    column="code",
+)
+
+pericarditis_icd10 = codelist_from_csv(
+    "user/elsie_horne/pericarditis_icd10/7b0c82bd.csv",
+    system="icd10",
+    column="code",
+)
+
+myocarditis_icd10 = codelist_from_csv(
+    "user/elsie_horne/myocarditis_icd10/48ed9c53.csv",
+    system="icd10",
     column="code",
 )

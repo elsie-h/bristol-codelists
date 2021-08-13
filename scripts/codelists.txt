@@ -35,3 +35,5 @@ user/elsie_horne/other_dvt_icd10/547f4fba
 user/elsie_horne/icvt_pregnancy_icd10/3b6fdc85
 user/elsie_horne/portal_vein_thrombosis_icd10/22606950
 user/elsie_horne/vt_icd10/0950f61b
+user/elsie_horne/thrombophilia_icd10/704182e5
+user/elsie_horne/thrombophilia_snomed/57320fb0

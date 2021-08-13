@@ -225,3 +225,15 @@ vt_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
+
+thrombophilia_icd10 = codelist_from_csv(
+    "user/elsie_horne/thrombophilia_icd10/704182e5.csv",
+    system="icd10",
+    column="code",
+)
+
+thrombophilia_snomed = codelist_from_csv(
+    "user/elsie_horne/thrombophilia_snomed/57320fb0.csv",
+    system="snomed",
+    column="code",
+)

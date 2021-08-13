@@ -189,3 +189,39 @@ stroke_sah_hs_snomed = codelist_from_csv(
     system="snomed",
     column="code",
 )
+
+pe_icd10 = codelist_from_csv(
+    "user/elsie_horne/pe_icd10/069e3625.csv",
+    system="icd10",
+    column="code",
+)
+
+pe_snomed = codelist_from_csv(
+    "user/elsie_horne/pe_snomed/6d8ec2ef.csv",
+    system="snomed",
+    column="code",
+)
+
+other_dvt_icd10 = codelist_from_csv(
+    "user/elsie_horne/other_dvt_icd10/547f4fba.csv",
+    system="icd10",
+    column="code",
+)
+
+icvt_pregnancy_icd10 = codelist_from_csv(
+    "user/elsie_horne/icvt_pregnancy_icd10/3b6fdc85.csv",
+    system="icd10",
+    column="code",
+)
+
+portal_vein_thrombosis_icd10 = codelist_from_csv(
+    "user/elsie_horne/portal_vein_thrombosis_icd10/22606950.csv",
+    system="icd10",
+    column="code",
+)
+
+vt_icd10 = codelist_from_csv(
+    "user/elsie_horne/vt_icd10/0950f61b.csv",
+    system="icd10",
+    column="code",
+)

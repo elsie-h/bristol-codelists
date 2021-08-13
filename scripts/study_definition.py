@@ -14,7 +14,7 @@ placeholder_dmd = codelist(["codes"], system="snomed")
 
 variables = {
     "cov_ever_ami": [ami_snomed, ami_icd10, ami_prior_icd10],
-    "cov_ever_pe_vt": [dvt_dvt_icd10, dvt_pregnancy_icd10],
+    "cov_ever_pe_vt": [pe_icd10, pe_snomed, dvt_dvt_icd10, other_dvt_icd10, dvt_pregnancy_icd10, icvt_pregnancy_icd10, portal_vein_thrombosis_icd10, vt_icd10],
     "cov_ever_icvt": [dvt_icvt_icd10, dvt_icvt_snomed],
     "cov_ever_all_stroke": [stroke_isch_icd10, stroke_isch_snomed, stroke_sah_hs_icd10, stroke_sah_hs_snomed],
     "cov_ever_thrombophilia": [placeholder_ctv3, placeholder_icd10],

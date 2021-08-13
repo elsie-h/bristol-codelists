@@ -37,3 +37,6 @@ user/elsie_horne/portal_vein_thrombosis_icd10/22606950
 user/elsie_horne/vt_icd10/0950f61b
 user/elsie_horne/thrombophilia_icd10/704182e5
 user/elsie_horne/thrombophilia_snomed/57320fb0
+user/elsie_horne/tcp_snomed/3e229c7b
+user/elsie_horne/ttp_icd10/25132946
+user/elsie_horne/thrombocytopenia_icd10/0c03b611

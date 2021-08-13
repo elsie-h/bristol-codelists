@@ -237,3 +237,21 @@ thrombophilia_snomed = codelist_from_csv(
     system="snomed",
     column="code",
 )
+
+tcp_snomed = codelist_from_csv(
+    "user/elsie_horne/tcp_snomed/3e229c7b.csv",
+    system="snomed",
+    column="code",
+)
+
+ttp_icd10 = codelist_from_csv(
+    "user/elsie_horne/ttp_icd10/25132946.csv",
+    system="icd10",
+    column="code",
+)
+
+thrombocytopenia_icd10 = codelist_from_csv(
+    "user/elsie_horne/thrombocytopenia_icd10/0c03b611.csv",
+    system="icd10",
+    column="code",
+)

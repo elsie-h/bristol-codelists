@@ -18,7 +18,7 @@ variables = {
     "cov_ever_icvt": [dvt_icvt_icd10, dvt_icvt_snomed],
     "cov_ever_all_stroke": [stroke_isch_icd10, stroke_isch_snomed, stroke_sah_hs_icd10, stroke_sah_hs_snomed],
     "cov_ever_thrombophilia": [thrombophilia_snomed, thrombophilia_icd10],
-    "cov_ever_tcp": [placeholder_ctv3, placeholder_icd10],
+    "cov_ever_tcp": [thrombocytopenia_icd10, ttp_icd10, tcp_snomed],
     "cov_ever_dementia": [dementia_snomed, dementia_icd10],
     "cov_ever_liver_disease": [placeholder_ctv3, placeholder_icd10],
     "cov_ever_ckd": [ckd_snomed, ckd_icd10],
